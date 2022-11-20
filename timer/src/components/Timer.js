@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from "react";
 
-import '../asset/timerstyle.css'
 
 const Timer = () => {
 
@@ -23,7 +22,6 @@ const Timer = () => {
             clearInterval(timeout)
         }
     }, [timer])
-
 
     const handleChange = (e) => {
         setInput(e.target.value)
@@ -57,7 +55,8 @@ const Timer = () => {
     }
 
     return (
-        <div className='timer'>Timer : {timer}
+        <div className="App-header">  
+            <p> Timer : {timer}</p>
             <input type="number" value={input} placeholder='user input' onChange={handleChange} />
             <div>
                 <button onClick={handlePlay}>play</button>
