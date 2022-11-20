@@ -55,7 +55,7 @@ const Timer = () => {
     }
 
     return (
-        <div className="App-header">  
+        <div className="timer">  
             <p> Timer : {timer}</p>
             <input type="number" value={input} placeholder='user input' onChange={handleChange} />
             <div>
