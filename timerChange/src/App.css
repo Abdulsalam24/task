@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 18px;
+}
+
+span,
+button {
+  margin: 0 3px;
+}
+
+input {
+  margin-right: 2px;
+  cursor: pointer;
+}
+
+span button {
+  padding: 1px 5px;
+}
+
+.purchase {
+  width: 50%;
+  margin: auto;
+}
+
+.list li {
+  margin: 5px 0;
+}
+
+h2 {
+  margin: 5px 0;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+button {
+  cursor: pointer;
+  padding: 10px;
+}
